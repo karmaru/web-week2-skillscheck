@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    color: white;
+    /* border: 10px; */
+    margin: 0 20px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-around;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    /* border: 1px white solid; */
+    width: 40vw;
+    height: 40px;
+    display: flex;
+    background: grey;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10px;
+    padding-left: 15px;
+    font-weight: 100;
+    margin-top: 0;
+}
+
+nav > a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: inherit;
+    padding-right: 20px;
+    font-size: 10px;
+    /* font-family: 'Gloria Hallelujah', cursive; */
+}
+
+#splash {
+    width: 40vw;
+    height: 200px;
+    /* border: 1px red solid; */
+    color: yellow;
+    font-size: 40px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+}
+
+#container {
+    /* display: flex; */
+    background: white;
+    /* border: 1px red solid; */
+    width: 40vw;
+    height: 55vh;
+    padding: 0;
+}
+
+.top {
+    display: flex;
+    justify-content: space-evenly;
+
+    /* padding: 0; */
+    align-content: center;
+    /* position: absolute; */
+    padding-left: 0;
+    padding-top: 20px;
+}
+
+.top > div {
+    /* border: 1px red solid; */
+    width: 100px;
+    height: 100px;
+    background: rgb(159, 235, 209);
+    border-radius: 15px;
+    justify-content: space-evenly;
+}
+
+.middle {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+    /* padding: 0; */
+    align-content: center;
+    /* position: absolute; */
+    padding-left: 0;
+}
+
+.middle > div {
+    /* border: 1px red solid; */
+    width: 200px;
+    height: 100px;
+    background: rgb(219, 172, 110);
+    /* border-radius: 15px; */
+    justify-content: space-evenly;
+}
+
+.bottom {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+    /* padding: 0; */
+    align-content: center;
+    /* position: absolute; */
+    padding-left: 0;
+}
+
+.bottom > div {
+    height: 40px;
+    width: 200px;
+    color: black;
+    font-size: .5em;
+    padding-left: 20px;
+}
+
+.bottom > div > img {
+    height: 100px;
+    width: 180px;
+    padding-right: 20px;
+}
+
+footer {
+    background: rgb(42, 29, 104);
+    /* border: 1px red solid; */
+    width: 40vw;
+    height: 10vh;
+    padding: 0;
+}
